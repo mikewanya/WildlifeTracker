@@ -21,7 +21,7 @@ public class SightingsTest {
     @Test
     public void getLocation_instantiatesWithRangerName_String() {
         Sightings testSighting = new Sightings("area 1", "Marcus", 1);
-        assertEquals("Vick", testSighting.getRangerName());
+        assertEquals("Marcus", testSighting.getRangerName());
     }
     @Test
     public void getLocation_instantiatesWithAnimalId_int() {

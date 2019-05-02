@@ -15,7 +15,7 @@ public class EndangeredTest{
     @Test
     public void endangered_instantiatesWithAnimalName_String(){
         Endangered testAnimal = new Endangered("cheetah","okay", "young");
-        assertEquals("lion", testAnimal.getName());
+        assertEquals("cheetah", testAnimal.getName());
     }
     @Test
     public void endangered_instantiatesWIthAnimalHealth_String(){
