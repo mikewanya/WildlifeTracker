@@ -5,6 +5,21 @@ width: 100%;
 height: 100%;
 }
 
+.meat{
+margin-left: 35%;
+background-image: url("/images/animals.jpg");
+background-size: cover;
+width: 300px;
+height: 200px;
+}
+
+.headingt{
+
+
+    background-color: #128D0E!important;
+
+}
+
 .bg-dark {
     background-color: #128D0E!important;
 }
@@ -21,27 +36,6 @@ height: 100%;
  color: #D30C47;
 }
 
-
-
-.text-container {
-  background: black;
-  opacity: 0.5;
-  padding: 20px;
-  height: 87vh;
-  width: 100%;
-  position: relative;
-}
-.textarea {
-  background: transparent;
-  color: white;
-  resize: none;
-  border: 0 none;
-  width: 100%;
-  font-size: 1.5rem;
-  outline: none;
-  height: 100%;
-  position: absolute;
-}
 p.textarea{
 color: white;
 opacity: 1;

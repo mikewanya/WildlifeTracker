@@ -27,7 +27,7 @@ location (Conveyed in any manner you choose ie: "Zone A", "Near the River", "NE 
 3. Database instructions for PSQL
 In PSQL:
 
-* CREATE TABLE animals(id SERIAL PRIMARY KEY,health varchar, age varchar, type varchar,name varchar);
+* CREATE TABLE animals(id SERIAL PRIMARY KEY, health varchar, age varchar, type varchar,name varchar);
 
 * CREATE TABLE locations(id SERIAL PRIMARY KEY, name varchar);
 
